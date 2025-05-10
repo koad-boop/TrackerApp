@@ -1,0 +1,27 @@
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+
+.hero-video--section{
+    height: auto;
+    width: 30rem;
+    border-radius: 2rem;
+}
+
+.bg-main{
+    height: 80vh;
+    position: relative;
+    background-image: var(--headBackground);
+    background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.heading{
+    
+    margin-bottom: 19px;
+    color: white;
+}

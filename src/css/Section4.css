@@ -1,0 +1,46 @@
+/* Wrapper for carousel */
+.carousel-wrapper {
+  max-width: 800px;          /* Adjust the maximum width for carousel */
+  margin: 30px auto;         /* Center it horizontally */
+  border-radius: 10px;       /* Optional: rounded corners for the carousel */
+  overflow: hidden;          /* Hide anything outside the wrapper */
+  background-color: var(--bg-color); /* Dark or light background depending on theme */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better appearance */
+}
+
+/* Carousel item video styling */
+.custom-carousel-video {
+  width: 100%;
+  height: auto;              /* Let the video scale naturally */
+  max-height: 400px;         /* Adjust the height of the videos */
+  object-fit: cover;         /* Maintain aspect ratio and cover the area */
+  border-radius: 10px;       /* Optional: rounded corners on video */
+}
+
+/* Dark mode styling for carousel */
+.dark-mode .carousel-wrapper {
+  background-color: var(--bg-color);   /* dark background for carousel */
+}
+
+.dark-mode .carousel-item {
+  border: 1px solid #444; /* Dark border for items */
+}
+
+.carousel-indicators button {
+  background-color: var(--text-color); /* Indicator color */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--text-color); /* Control icon color */
+}
+
+/* Optional: Styling for carousel controls */
+.carousel-control-prev, .carousel-control-next {
+  color: var(--text-color); /* control icon color */
+}
+
+/* Optional: Smooth transition effect */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

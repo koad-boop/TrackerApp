@@ -1,0 +1,93 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --toggleSwitchOuter-color: white;
+  --toggleSwitchInner-color: black;
+  --togglePosition: translateX(10px);
+  --formTextColor: black;
+  --button-bg: #e0e0e0;
+  --button-text: black;
+  --border-color: #ccc;
+  --nav-bg:white;
+  --card-bg:white;
+  --card-text:black;
+   --close-button-filter: invert(0);
+  --headBackground :  linear-gradient(rgba(22,22,22,0.6) , rgba(22,22,22,0.6)),url('background.jpg');
+  --section3Background : linear-gradient(rgba(22,22,22,0.2) , rgba(22,22,22,0.2)),url('section3.jpeg');
+ --selectedskilBBackground :url('selectedskillbackground.jpeg');
+}
+
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f1f1f1;
+  --toggleSwitchOuter-color:black;
+  --toggleSwitchInner-color: black;
+  --togglePosition: translateX(0);
+  --formTextColor: white;
+  --button-bg: #2c2c2c;
+  --button-text: white;
+  --border-color: #444;
+  --nav-bg:rgba(0, 0, 0, 0.5);
+  --card-bg:rgb(128, 128, 128,0.4);
+  --card-text:white;
+   --close-button-filter: invert(1);
+  --headBackground :  linear-gradient(rgba(22,22,22,0.6) , rgba(22,22,22,0.6)),url('background.jpg');
+  --section3Background: linear-gradient(rgba(22,22,22,0.2) , rgba(22,22,22,0.2)),url('section3.jpeg');
+  --selectedskilBBackground : url('selectedskillbackground.jpeg');
+}
+html {
+  scroll-behavior: smooth;
+   scroll-padding-top: 200px;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-link {
+  cursor: pointer;
+}
+
+/* Navbar ke neeche jagah dene ke liye */
+.main-content {
+  padding-top: 80px;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Global button style */
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--toggleSwitchInner-color);
+}
+
+/* Optional: for consistent heading spacing */
+h1, h2, h3, h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  
+}
+.font{
+  font-family:"Playfair Display","Noto Serif", serif;
+}
+

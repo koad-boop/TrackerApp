@@ -1,0 +1,30 @@
+/* App.css ya Home.css me */
+.offcanvas {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+.task-text {
+  color: var(--text-color);
+}
+.btn-close {
+  filter: var(--close-button-filter);
+}
+
+
+
+.color{
+ color: var(--text-color)  !important;
+}
+
+/* selectedtask ka background */
+
+.selected-tasks-section{
+ background-image: var(--selectedskilBBackground);
+    background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.task-row{
+    background-color:var(--card-bg);
+}

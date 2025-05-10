@@ -1,0 +1,70 @@
+
+  
+  .login-container {
+    width: 100%;
+    max-width: 420px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px);
+    color: var(--formTextColor);
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00ffff;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--formTextColor);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--formTextColor);
+    outline: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .login-form input:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #00adb5;
+    box-shadow: 0 0 5px #00adb5;
+  }
+  
+  .login-form input::placeholder {
+    color: var(--formTextColor);
+  }
+  
+  .submit-btn {
+    padding: 0.8rem;
+    background-color: #00adb5;
+    border: none;
+    border-radius: 8px;
+    color: var(--formTextColor);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #019ca3;
+  }
+  
