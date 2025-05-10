@@ -1,12 +1,41 @@
-# React + Vite
+# 📘 Learning Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A productivity-focused Learning Tracker that helps users track daily progress on selected skills like HTML, CSS, JavaScript, and React. Built with React and localStorage, the app offers personalized learning, task completion tracking, streaks, and progress visualization.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [View App](https://your-tracker-link.netlify.app)
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User Sign Up / Login with localStorage
+- Select learning skills during signup (HTML, CSS, JavaScript, React)
+- Add daily learning subtopics as tasks
+- Mark tasks as completed with checkboxes
+- Track progress with:
+  - ✅ Completion percentage
+  - 📈 Progress chart
+  - 📅 GitHub-style streak calendar
+- Light & dark mode support using CSS variables
+
+## 🛠️ Tech Stack
+
+- **React** – frontend framework
+- **JavaScript (ES6+)**
+- **CSS** – with theme variables
+- **localStorage** – for persistent data
+- **Chart.js / Recharts** – progress charts
+- **GitHub-style calendar** – for streak tracking
+
+## 📂 Folder Structure
+
+/TrackerApp
+├── /src
+│ ├── /components
+│ ├── /pages
+│ ├── /context
+│ ├── /data
+│ └── App.js
+├── /public
+├── index.html
+└── package.json
