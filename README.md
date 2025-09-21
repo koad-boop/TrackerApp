@@ -4,7 +4,7 @@ A productivity-focused Learning Tracker that helps users track daily progress on
 
 ## 🚀 Live Demo
 
-🔗 [View App](https://your-tracker-link.netlify.app)
+🔗 [View App] https://tracker-app-ten-lime.vercel.app/
 
 ## 🔥 Features
 
