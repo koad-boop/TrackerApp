@@ -12,9 +12,9 @@
   --card-bg:white;
   --card-text:black;
    --close-button-filter: invert(0);
-  --headBackground :  linear-gradient(rgba(22,22,22,0.6) , rgba(22,22,22,0.6)),url('background.jpg');
-  --section3Background : linear-gradient(rgba(22,22,22,0.2) , rgba(22,22,22,0.2)),url('section3.jpeg');
- --selectedskilBBackground :url('selectedskillbackground.jpeg');
+  --headBackground :  linear-gradient(rgba(22,22,22,0.6) , rgba(22,22,22,0.6)),url('/background.jpg');
+  --section3Background : linear-gradient(rgba(22,22,22,0.2) , rgba(22,22,22,0.2)),url('/section3.jpeg');
+ --selectedskilBBackground :url('/selectedskillbackground.jpeg');
 }
 
 .dark-mode {
@@ -31,9 +31,9 @@
   --card-bg:rgb(128, 128, 128,0.4);
   --card-text:white;
    --close-button-filter: invert(1);
-  --headBackground :  linear-gradient(rgba(22,22,22,0.6) , rgba(22,22,22,0.6)),url('background.jpg');
-  --section3Background: linear-gradient(rgba(22,22,22,0.2) , rgba(22,22,22,0.2)),url('section3.jpeg');
-  --selectedskilBBackground : url('selectedskillbackground.jpeg');
+  --headBackground :  linear-gradient(rgba(22,22,22,0.6) , rgba(22,22,22,0.6)),url('/background.jpg');
+  --section3Background: linear-gradient(rgba(22,22,22,0.2) , rgba(22,22,22,0.2)),url('/section3.jpeg');
+  --selectedskilBBackground : url('/selectedskillbackground.jpeg');
 }
 html {
   scroll-behavior: smooth;
